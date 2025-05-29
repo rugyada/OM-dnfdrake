@@ -2,7 +2,7 @@
 
 Summary:	A frontend for DNF
 Name:		OM-dnfdrake
-Version:	5.0.88
+Version:	5.0.110
 Release:	1
 License:	GPLv3
 Group:		Graphical desktop/KDE
@@ -16,7 +16,6 @@ BuildRequires:	gambas-devel
 BuildRequires:	gambas-gb.dbus
 BuildRequires:	gambas-gb.form
 BuildRequires:	gambas-gb.form.stock
-BuildRequires:	gambas-gb.form.dialog
 BuildRequires:	gambas-gb.qt6
 BuildRequires:	gambas-gb.image
 BuildRequires:	gambas-gui-backend
@@ -32,7 +31,6 @@ Requires:	gambas-gb.form.stock = %{gb3_ver}
 Requires:	gambas-gb.qt6 = %{gb3_ver}
 Requires:	gambas-gui-backend = %{gb3_ver}
 Requires:	gambas-gb.image = %{gb3_ver}
-Requires:	gambas-gb.form.dialog = %{gb3_ver}
 Requires:	gambas-gb.complex = %{gb3_ver}
 Requires:	lsb-release
 Requires:	python-dnf-plugin-versionlock
