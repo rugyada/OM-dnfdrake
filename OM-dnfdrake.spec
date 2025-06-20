@@ -2,14 +2,14 @@
 
 Summary:	A frontend for DNF
 Name:		OM-dnfdrake
-Version:	5.0.110
+Version:	5.0.125
 Release:	1
 License:	GPLv3
 Group:		Graphical desktop/KDE
 URL:		https://mib.pianetalinux.org
 #URL:		https://github.com/astrgl/dnfdrake
 #Source0:	https://github.com/astrgl/dnfdrake/archive/%{version}/%{name}-%{version}.tar.gz
-#Source: %{name}-%{version}.tar.gz
+#Source:	%{name}-%{version}.tar.gz
 Source0:	%{name}-%{version}.tar.gz
 
 BuildRequires:	gambas-devel
