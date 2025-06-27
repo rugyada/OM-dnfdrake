@@ -4,7 +4,7 @@
 
 Summary:	A frontend for DNF
 Name:		dnfdrake
-Version:	5.0.129
+Version:	5.0.130
 Release:	1
 License:	GPLv3
 Group:		Graphical desktop/KDE
